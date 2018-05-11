@@ -17,7 +17,7 @@ trait extras {
 include_once 'decodificadorGIF.php';
 include_once 'compiladorWebp.php';
 
-class php_GD_Animated_webp {
+class animatedwebp {
 
     use extras;
 
@@ -32,4 +32,9 @@ class php_GD_Animated_webp {
     }
 }
 
-(new php_GD_Animated_webp)->convertirGIFaWEBP('C:\\Users\\Solrac\\Pictures\\telosico.gif');
+/* You can use it like this:
+
+ (new animatedwebp)->convertirGIFaWEBP('PATH TO GIF');
+ * 
+ */
+ 

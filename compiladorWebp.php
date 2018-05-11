@@ -1,14 +1,4 @@
 <?php
-
-/*
- * compiladorWebp
- *  
- * @package 
- * @author     Carlos Daniel Peña Dutary <cdutary@grupocti.com>
- * @version    1.0.0.1  -  Forked from https://github.com/aloMalbarez/php-GD-Animated-webp
- */
-
-
 class compiladorWebp {
 
     use extras;

@@ -1,12 +1,5 @@
 <?php
 
-/*
- * decodificadorGIF
- *  
- * @author     Carlos Daniel Peña Dutary <cdutary@grupocti.com>
- * @version    1.5  - Forked from https://github.com/Sybio/GifFrameExtractor
- */
-
 class decodificadorGIF {
 
     use extras;
