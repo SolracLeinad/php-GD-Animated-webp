@@ -1,9 +1,18 @@
 # php-GD-Animated-webp
-First attempt to create an animated webp using GD
 
 Based on https://es.stackoverflow.com/q/159217/81450
 
-Note: Missing the gif frames extraction things
+Forked from https://github.com/aloMalbarez/php-GD-Animated-webp
+
+
+Created a custom GIF extractor
+Created a class container for each part of the code.
+
+
+** Untested extract NOT using original frames but PHP creates garbage AFAIK when dealing with transparency + background images.
+** Garbage is created when a GIF has transparency. Individual Frames seem to be ok.
+
+-----------------------------------------------------------------------------------------------------
 
 PART 1 : encoding each frame
 
